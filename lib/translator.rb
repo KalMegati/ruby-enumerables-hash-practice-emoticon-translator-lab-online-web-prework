@@ -3,7 +3,6 @@ require "yaml"
 # in get_meaning, japanese emoticons point to written meanings
 # in get_emoticon, english emoticons point to japanese emoticons
 
-
 def load_library(file)
   runner_speak = YAML.load_file(file)
   feelings = runner_speak.keys
